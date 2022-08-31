@@ -17,5 +17,8 @@ values(seq_board.nextval, '테스트 제목', '테스트 내용', 'user00');
 
 SELECT * FROM TBL_BOARD
 
+DELETE FROM TBL_BOARD WHERE BNO>50
+
+
 
 
